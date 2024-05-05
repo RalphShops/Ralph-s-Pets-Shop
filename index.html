@@ -179,3 +179,40 @@
 <section id="grooming">
   <h2>Pet Grooming Services</h2>
 </section>
+
+<section id="training">
+  <h2>Pet Training Classes</h2>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Our Pet Shop is committed to providing a wide range of pets and pet-related products to meet the needs of pet owners.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any questions or feedback, please reach out to us:</p>
+  <address>
+    Email: RalphMatias19@gmail.com
+    Phone: 09676693561
+    Address: Castellano, San Leonardo, Nueva Ecija
+  </address>
+</section>
+<footer>
+  <p>&copy; 2024 Pet Shop. All rights reserved.</p>
+</footer>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
