@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Ralph's Pet Shop - Welcome</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFCC; /* Light yellow background */
+      color: #333; /* Dark text color */
+    }
+    header {
+      background-color: #003366; /* Dark blue */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #6699CC; /* Light blue */
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0 10px;
+    }
+    section {
+      padding: 20px;
+      background-color: #FFFFFF; /* White background for sections */
+      margin-bottom: 20px; /* Add space between sections */
+      border-radius: 5px; /* Rounded corners for sections */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow for depth */
+    }
+    footer {
+      background-color: #003366; /* Dark blue */
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    /* Additional color styles */
+    #dogs {
+      background-color: #FFCC66; /* Light orange for dogs */
+    }
+    #cats {
+      background-color: #FF9966; /* Light orange for cats */
+    }
+    #birds {
+      background-color: #FF6666; /* Light red for birds */
+    }
+    #fish {
+      background-color: #99CC99; /* Light green for fish */
+    }
+    #reptiles {
+      background-color: #99CCCC; /* Light cyan for reptiles */
+    }
+    #small-animals {
+      background-color: #CCCC99; /* Light khaki for small animals */
+    }
+    #aquariums {
+      background-color: #FFCC99; /* Light peach for aquariums */
+    }
+    #accessories {
+      background-color: #996699; /* Light purple for accessories */
+    }
+    #grooming {
+      background-color: #6699CC; /* Light blue for grooming */
+    }
+    #training {
+      background-color: #FF9966; /* Light orange for training */
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ralph's Pet Shop</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a> |
+  <a href="#dogs">Dogs</a> |
+  <a href="#cats">Cats</a> |
+  <a href="#birds">Birds</a> |
+  <a href="#fish">Fish</a> |
+  <a href="#reptiles">Reptiles</a> |
+  <a href="#small-animals">Small Animals</a> |
+  <a href="#aquariums">Aquariums</a> |
+  <a href="#accessories">Accessories</a> |
+  <a href="#grooming">Grooming</a> |
+  <a href="#training">Training</a> |
+  <a href="#about">About Us</a> |
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to our Pet Shop!</h2>
+</section>
+
+<section id="dogs">
+  <h2>Dogs</h2>
+  <ul>
+    <li><img src="" alt="Golden Retriever"> Golden Retriever - $500</li>
+    <li><img src="" alt="Labrador Retriever"> Labrador Retriever - $450</li>
+    <li><img src="" alt="German Shepherd"> German Shepherd - $550</li>
+    <li><img src="" alt="Bulldog"> Bulldog - $600</li>
+  </ul>
+</section>
+
+<section id="cats">
+  <h2>Cats</h2>
+  <ul>
+    <li><img src="" alt="Persian Cat"> Persian Cat - $300</li>
+    <li><img src="" alt="Siamese Cat"> Siamese Cat - $250</li>
+    <li><img src="" alt="Maine Coon"> Maine Coon - $350</li>
+    <li><img src="" alt="Bengal Cat"> Bengal Cat - $400</li>
+  </ul>
+</section>
+
+<section id="birds">
+  <h2>Birds</h2>
+  <ul>
+    <li><img src="" alt="Parakeet"> Parakeet - $50</li>
+    <li><img src="" alt="Cockatiel"> Cockatiel - $80</li>
+    <li><img src="" alt="Lovebird"> Lovebird - $70</li>
+    <li><img src="" alt="African Grey Parrot"> African Grey Parrot - $500</li>
+  </ul>
+</section>
+
+<section id="fish">
+  <h2>Fish</h2>
+  <ul>
+    <li><img src="" alt="Goldfish"> Goldfish - $5</li>
+    <li><img src="" alt="Betta Fish"> Betta Fish - $10</li>
+    <li><img src="" alt="Guppy"> Guppy - $3</li>
+    <li><img src="" alt="Angelfish"> Angelfish - $8</li>
+  </ul>
+</section>
+
+<section id="reptiles">
+  <h2>Reptiles</h2>
+  <ul>
+    <li><img src="" alt="Leopard Gecko"> Leopard Gecko - $40</li>
+    <li><img src="" alt="Bearded Dragon"> Bearded Dragon - $60</li>
+    <li><img src="" alt="Corn Snake"> Corn Snake - $50</li>
+    <li><img src="" alt="Red-Eared Slider"> Red-Eared Slider - $30</li>
+  </ul>
+</section>
+
+<section id="small-animals">
+  <h2>Small Animals</h2>
+  <ul>
+    <li><img src="" alt="Hamster"> Hamster - $15</li>
+    <li><img src="" alt="Guinea Pig"> Guinea Pig - $20</li>
+    <li><img src="" alt="Rabbit"> Rabbit - $25</li>
+    <li><img src="" alt="Ferret"> Ferret - $50</li>
+  </ul>
+</section>
+
+<section id="aquariums">
+  <h2>Aquariums</h2>
+  <ul>
+    <li><img src="" alt="Small Aquarium"> Small Aquarium - $50</li>
+    <li><img src="" alt="Medium Aquarium"> Medium Aquarium - $100</li>
+    <li><img src="" alt="Large Aquarium"> Large Aquarium - $200</li>
+  </ul>
+</section>
+
+<section id="accessories">
+  <h2>Pet Accessories</h2>
+</section>
+
+<section id="grooming">
+  <h2>Pet Grooming Services</h2>
+</section>
